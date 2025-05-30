@@ -1,0 +1,21 @@
+{
+  "name": "truthblockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server-dev\" \"npm run client-dev\"",
+    "server-dev": "ts-node-dev server/index.ts",
+    "client-dev": "vite",
+    "start": "node dist/server/index.js",
+    "build": "tsc && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "tsx": "^4.19.4"
+  }
+}
