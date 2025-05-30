@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     
-  "prepare": "npm install",
+    "prepare": "echo 'No special preparation needed for deployment.'", 
     "dev": "concurrently \"npm run server-dev\" \"npm run client-dev\"",
     "server-dev": "ts-node-dev server/index.ts",
     "client-dev": "vite",
